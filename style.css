@@ -1,0 +1,172 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #a94e1a 0%, #ad8b3292 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+}
+
+.main{
+    height: 80%;
+    width: 76%;
+    background-image: url("images/weatherCard.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2%;
+    color: white;
+  }
+
+.one{
+    width: 65%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+
+
+}
+.f1{width: 100%;
+height: 40%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;}
+.picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5625rem
+    ;
+    gap: 5px;
+}
+
+.citybox{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-top: 30px;
+    gap: 15px;
+}
+/* #name{    font-size: 30px; */
+
+.f2{
+width: 100%;
+height: 50%;
+display: flex;
+flex-direction: row;
+align-items:end;
+justify-content: space-evenly;
+}
+.cel{
+    height: 40%;
+    width: 30%;
+    font-size: 70px;
+    display: flex;
+}
+.sup{font-size: 40px;}
+.sun{display: flex;
+font-size: 18px;
+gap: 10px;
+}
+
+.dat{
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+}
+
+
+.sec{
+    width: 35%;
+    height: 100%;
+    background-color:rgba(45, 43, 43, 0.542);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    
+}
+.find{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.search{
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 7px;
+    font-size: 18px;
+    
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 20px;
+    background-color: rgba(240, 27, 27, 0.765);
+    color: white;
+}
+.details{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: ;
+}
+
+.heading{
+    height: 40px;
+    font-size: 25px;
+    margin: 3px;
+    padding: 2px;
+}
+
+.info{
+    height:80% ;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.unit{
+    display: flex;
+    border-bottom: 2px ridge white;
+    font-size: 20px;
+        margin: 4px;
+        padding: 5px;
+        gap: 3px;     width: 70%;
+        justify-content: center;
+
+}
+
+/* .data{
+    border-bottom: 2px ridge white;
+font-size: 20px;
+    margin: 4px;
+    padding: 5px;
+
+} */
+
