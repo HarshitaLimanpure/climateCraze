@@ -2,7 +2,7 @@
 
 .wrapper{
     width: 100vw;
-    height: 100vh;
+    height:100vh;
     background-color: #FBAB7E;
 background-image: linear-gradient(62deg, #a94e1a 0%, #ad8b3292 100%);
     display: flex;
@@ -77,6 +77,8 @@ justify-content: space-evenly;
     display: flex;
 }
 .sup{font-size: 40px;}
+.com{display: flex;
+flex-direction: row;}
 .sun{display: flex;
 font-size: 18px;
 gap: 10px;
@@ -85,6 +87,7 @@ gap: 10px;
 .dat{
     font-size: 18px;
     display: flex;
+    flex-direction: row;
     gap: 5px;
 }
 
@@ -170,3 +173,88 @@ font-size: 20px;
 
 } */
 
+@media(max-width:1254px){
+    .wrapper{
+        height: 100%;
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
+        margin: 50px;
+        gap: 30px;
+
+    }
+    .one{
+        
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-top-left-radius: 2%;
+        border-bottom-left-radius: 2%;
+    }
+
+    .sec{
+        width: 100%;
+        
+        background-color:rgba(45, 43, 43, 0.542);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-top-right-radius: 2%;
+        border-bottom-right-radius: 2%;
+        
+    }
+    .find{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+    .search{
+        width: 68%;
+        height: 2em;
+        border-radius: 5px;
+        border: none;
+        padding-left: 7px;
+        font-size: 18px;
+        
+    }
+    .btn{
+        width: 25%;
+        height:3em ;
+        border-radius: 5px;
+        font-weight: 20px;
+        background-color: rgba(240, 27, 27, 0.765);
+        color: white;
+    }
+
+    .citybox{
+        font-size: 1.5rem;
+    }
+    .cel{
+        font-size: 3rem;
+        width: 65%;
+    }
+}
+@media(max-width:614px)
+{.picture{
+    font-size: 1.3rem;
+    gap: 0px;
+}   
+    .com{
+        flex-direction: column;
+    }
+    .f2{
+        gap: 5px;
+    }
+
+img{width: 170px;}
+    .sun,.dat{flex-direction: column;
+    flex-wrap: wrap;
+align-items: center;}
+}
